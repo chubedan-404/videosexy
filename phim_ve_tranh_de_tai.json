@@ -1,0 +1,514 @@
+{
+  "_ghi_chu": "Kho chủ đề lịch sử thế giới, chiến tranh, Ai Cập cổ đại, khoảng trắng lịch sử và sự kiện chấn động cho module Lịch sử vẽ tranh (Whiteboard Animation).",
+  "danh_muc": [
+    {
+      "id": "chien_tranh",
+      "ten": "Chiến tranh & Xung đột thế giới",
+      "icon": "fa-solid fa-bomb"
+    },
+    {
+      "id": "ai_cap",
+      "ten": "Ai Cập cổ đại & Kim tự tháp",
+      "icon": "fa-solid fa-ankh"
+    },
+    {
+      "id": "khoang_trang_bi_an",
+      "ten": "Khoảng trắng lịch sử & Bí ẩn",
+      "icon": "fa-solid fa-circle-question"
+    },
+    {
+      "id": "su_kien_the_gioi",
+      "ten": "Sự kiện chấn động thế giới",
+      "icon": "fa-solid fa-earth-americas"
+    },
+    {
+      "id": "de_che_the_gioi",
+      "ten": "Đế chế & Nhân vật lịch sử",
+      "icon": "fa-solid fa-landmark"
+    }
+  ],
+  "chu_de": [
+    {
+      "id": "pvt_custom_44_1790862546",
+      "nhom": "chien_tranh",
+      "ten": "Trận chiến Kursk",
+      "chu_de": "Trận đại chiến xe tăng lớn nhất lịch sử tại vòng cung Kursk năm 1943",
+      "phut": 8
+    },
+    {
+      "id": "ww1_sarajevo",
+      "nhom": "chien_tranh",
+      "ten": "Vụ ám sát tại Sarajevo 1914",
+      "chu_de": "Vụ ám sát thái tử Franz Ferdinand tại Sarajevo năm 1914 và mồi lửa bùng nổ Thế chiến thứ nhất",
+      "phut": 5,
+      "nam": 1914,
+      "nhan_vat": [
+        "Franz Ferdinand",
+        "Gavrilo Princip"
+      ]
+    },
+    {
+      "id": "ww2_stalingrad",
+      "nhom": "chien_tranh",
+      "ten": "Trận chiến Stalingrad 1942",
+      "chu_de": "Trận chiến Stalingrad 1942: Bước ngoặt đẫm máu xoay chuyển toàn bộ cục diện Thế chiến thứ hai",
+      "phut": 8,
+      "nam": 1942,
+      "nhan_vat": [
+        "Georgy Zhukov",
+        "Friedrich Paulus",
+        "Vasily Zaitsev"
+      ]
+    },
+    {
+      "id": "ww2_dday",
+      "nhom": "chien_tranh",
+      "ten": "Cuộc đổ bộ Normandy (D-Day 1944)",
+      "chu_de": "Chiến dịch Overlord - Cuộc đổ bộ Normandy ngày 6/6/1944: Ngày dài nhất của lịch sử quân sự thế giới",
+      "phut": 8,
+      "nam": 1944,
+      "nhan_vat": [
+        "Dwight Eisenhower",
+        "Erwin Rommel"
+      ]
+    },
+    {
+      "id": "ww2_pearl_harbor",
+      "nhom": "chien_tranh",
+      "ten": "Tập kích Trân Châu Cảng 1941",
+      "chu_de": "Trận Trân Châu Cảng 7/12/1941: Đòn tập kích bất ngờ của hải quân Nhật và sự thức tỉnh của nước Mỹ",
+      "phut": 5,
+      "nam": 1941,
+      "nhan_vat": [
+        "Isoroku Yamamoto",
+        "Franklin D. Roosevelt"
+      ]
+    },
+    {
+      "id": "ww2_midway",
+      "nhom": "chien_tranh",
+      "ten": "Hải chiến Midway 1942",
+      "chu_de": "Trận hải chiến Midway năm 1942: 5 phút định đoạt số phận hạm đội tàu sân bay Nhật trên Thái Bình Dương",
+      "phut": 5,
+      "nam": 1942,
+      "nhan_vat": [
+        "Chester Nimitz",
+        "Chuichi Nagumo"
+      ]
+    },
+    {
+      "id": "ww2_leningrad",
+      "nhom": "chien_tranh",
+      "ten": "872 ngày bao vây Leningrad",
+      "chu_de": "Cuộc bao vây Leningrad suốt 872 ngày đêm: Bản anh hùng ca kiên cường giữa đói rét cùng cực và bom đạn",
+      "phut": 8,
+      "nam": 1941,
+      "nhan_vat": [
+        "Kliment Voroshilov",
+        "Georgy Zhukov"
+      ]
+    },
+    {
+      "id": "ww2_berlin_1945",
+      "nhom": "chien_tranh",
+      "ten": "Trận chiến Berlin 1945",
+      "chu_de": "Trận công phá Berlin tháng 4 năm 1945: Những ngày sụp đổ cuối cùng của Đức Quốc Xã trong boongke ngầm",
+      "phut": 8,
+      "nam": 1945,
+      "nhan_vat": [
+        "Adolf Hitler",
+        "Georgy Zhukov"
+      ]
+    },
+    {
+      "id": "war_cuba_missile",
+      "nhom": "chien_tranh",
+      "ten": "Khủng hoảng tên lửa Cuba 1962",
+      "chu_de": "Khủng hoảng tên lửa Cuba tháng 10 năm 1962: 13 ngày nhân loại tiến sát bờ vực chiến tranh hạt nhân hủy diệt",
+      "phut": 5,
+      "nam": 1962,
+      "nhan_vat": [
+        "John F. Kennedy",
+        "Nikita Khrushchev",
+        "Fidel Castro"
+      ]
+    },
+    {
+      "id": "war_waterloo",
+      "nhom": "chien_tranh",
+      "ten": "Trận Waterloo 1815",
+      "chu_de": "Trận Waterloo năm 1815: Cú ngã ngựa định mệnh kết thúc triều đại Hoàng đế Napoléon Bonaparte",
+      "phut": 8,
+      "nam": 1815,
+      "nhan_vat": [
+        "Napoléon Bonaparte",
+        "Công tước Wellington",
+        "Gebhard von Blücher"
+      ]
+    },
+    {
+      "id": "ai_cap_giza",
+      "nhom": "ai_cap",
+      "ten": "Bí ẩn xây Đại kim tự tháp Giza",
+      "chu_de": "Bí ẩn xây dựng Đại kim tự tháp Giza: Người Ai Cập cổ đại đã nâng hàng triệu khối đá nặng hàng tấn bằng cách nào?",
+      "phut": 5,
+      "nam": -2560,
+      "nhan_vat": [
+        "Pharaoh Khufu",
+        "Hemiunu"
+      ]
+    },
+    {
+      "id": "ai_cap_tutankhamun",
+      "nhom": "ai_cap",
+      "ten": "Lời nguyền lăng mộ Tutankhamun",
+      "chu_de": "Kho báu lăng mộ Tutankhamun và bí ẩn lời nguyền Pharaoh cướp đi sinh mạng những người khai quật năm 1922",
+      "phut": 5,
+      "nam": 1922,
+      "nhan_vat": [
+        "Howard Carter",
+        "Bá tước Carnarvon",
+        "Tutankhamun"
+      ]
+    },
+    {
+      "id": "ai_cap_xac_uop",
+      "nhom": "ai_cap",
+      "ten": "Bí mật ướp xác nghìn năm",
+      "chu_de": "Nghi lễ ướp xác Ai Cập cổ đại: Bí quyết giữ gìn thể xác nguyên vẹn nghìn năm để bước vào cõi vĩnh hằng",
+      "phut": 5,
+      "nam": -1500,
+      "nhan_vat": [
+        "Thần Anubis",
+        "Thần Osiris"
+      ]
+    },
+    {
+      "id": "ai_cap_cleopatra",
+      "nhom": "ai_cap",
+      "ten": "Cleopatra: Nữ hoàng cuối cùng",
+      "chu_de": "Cleopatra VII: Vẻ đẹp, mưu lược chính trị và cái chết bi kịch kết thúc triều đại Pharaoh 3000 năm của Ai Cập",
+      "phut": 5,
+      "nam": -30,
+      "nhan_vat": [
+        "Cleopatra",
+        "Julius Caesar",
+        "Mark Antony"
+      ]
+    },
+    {
+      "id": "ai_cap_akhenaten",
+      "nhom": "ai_cap",
+      "ten": "Pharaoh dị giáo Akhenaten",
+      "chu_de": "Pharaoh Akhenaten: Vị vua dị giáo lật đổ truyền thống ngàn năm và bí mật bị xóa tên khỏi mọi văn bia Ai Cập",
+      "phut": 5,
+      "nam": -1336,
+      "nhan_vat": [
+        "Akhenaten",
+        "Nữ hoàng Nefertiti"
+      ]
+    },
+    {
+      "id": "ai_cap_hatshepsut",
+      "nhom": "ai_cap",
+      "ten": "Hatshepsut: Nữ Pharaoh quyền lực",
+      "chu_de": "Nữ Pharaoh Hatshepsut: Người phụ nữ đội vương miện của các vị thần và âm mưu đục xóa tượng đài lịch sử",
+      "phut": 5,
+      "nam": -1458,
+      "nhan_vat": [
+        "Hatshepsut",
+        "Thutmose III"
+      ]
+    },
+    {
+      "id": "ai_cap_ramesses",
+      "nhom": "ai_cap",
+      "ten": "Ramesses II & Đại chiến Kadesh",
+      "chu_de": "Ramesses Đại Đế và trận chiến xe ngựa Kadesh lớn nhất cổ đại chống lại Đế quốc Hittite",
+      "phut": 8,
+      "nam": -1274,
+      "nhan_vat": [
+        "Ramesses II",
+        "Muwatalli II"
+      ]
+    },
+    {
+      "id": "bian_bronze_collapse",
+      "nhom": "khoang_trang_bi_an",
+      "ten": "Sự sụp đổ Thời kỳ Đồ Đồng 1200 TCN",
+      "chu_de": "Khoảng trắng lịch sử 1200 TCN: Bí ẩn những Nền văn minh Địa Trung Hải đồng loạt sụp đổ và bốc hơi trong chớp mắt",
+      "phut": 8,
+      "nam": -1200,
+      "nhan_vat": [
+        "Người Biển (Sea Peoples)"
+      ]
+    },
+    {
+      "id": "bian_mary_celeste",
+      "nhom": "khoang_trang_bi_an",
+      "ten": "Con tàu ma Mary Celeste 1872",
+      "chu_de": "Bí ẩn con tàu ma Mary Celeste năm 1872: Toàn bộ thủy thủ đoàn biến mất không một dấu vết giữa đại dương yên ả",
+      "phut": 5,
+      "nam": 1872,
+      "nhan_vat": [
+        "Thuyền trưởng Benjamin Briggs"
+      ]
+    },
+    {
+      "id": "bian_maya_disappearance",
+      "nhom": "khoang_trang_bi_an",
+      "ten": "Bí ẩn Đế chế Maya biến mất",
+      "chu_de": "Vì sao nền văn minh Maya với những kim tự tháp và thiên văn kỳ vĩ đột ngột bỏ hoang đô thị biến mất vào rừng sâu?",
+      "phut": 5,
+      "nam": 900,
+      "nhan_vat": [
+        "Người Maya cổ đại"
+      ]
+    },
+    {
+      "id": "bian_atlantis",
+      "nhom": "khoang_trang_bi_an",
+      "ten": "Huyền thoại thành phố Atlantis",
+      "chu_de": "Lục địa Atlantis bị lãng quên: Truyền thuyết Plato hay một nền văn minh siêu việt có thật từng bị đại dương nuốt chửng?",
+      "phut": 5,
+      "nam": -360,
+      "nhan_vat": [
+        "Plato",
+        "Solon"
+      ]
+    },
+    {
+      "id": "bian_voynich",
+      "nhom": "khoang_trang_bi_an",
+      "ten": "Bản thảo mật Voynich bí ẩn",
+      "chu_de": "Bản thảo Voynich: Cuốn sách kỳ lạ nhất lịch sử nhân loại với ngôn ngữ và loài thực vật chưa từng có ai giải mã nổi",
+      "phut": 5,
+      "nam": 1404,
+      "nhan_vat": [
+        "Wilfrid Voynich"
+      ]
+    },
+    {
+      "id": "bian_dyatlov",
+      "nhom": "khoang_trang_bi_an",
+      "ten": "Bí ẩn Đèo Dyatlov 1959",
+      "chu_de": "Sự cố Đèo Dyatlov năm 1959: Cơn ác mộng vùng núi tuyết Ural và cái chết bí ẩn của 9 nhà thám hiểm Liên Xô",
+      "phut": 5,
+      "nam": 1959,
+      "nhan_vat": [
+        "Igor Dyatlov"
+      ]
+    },
+    {
+      "id": "bian_man_iron_mask",
+      "nhom": "khoang_trang_bi_an",
+      "ten": "Người đàn ông mang mặt nạ sắt",
+      "chu_de": "Bí ẩn người tù mang mặt nạ sắt dưới triều vua Louis XIV: Danh tính thật sự bị chôn giấu suốt 34 năm sau song sắt",
+      "phut": 5,
+      "nam": 1669,
+      "nhan_vat": [
+        "Louis XIV",
+        "Bénigne Dauvergne de Saint-Mars"
+      ]
+    },
+    {
+      "id": "bian_derinkuyu",
+      "nhom": "khoang_trang_bi_an",
+      "ten": "Thành phố ngầm Derinkuyu 18 tầng",
+      "chu_de": "Thành phố ngầm Derinkuyu sâu 85 mét dưới lòng đất Thổ Nhĩ Kỳ: Ai đã xây dựng và che giấu 20.000 người cổ đại?",
+      "phut": 5,
+      "nam": -800,
+      "nhan_vat": [
+        "Người Phrygia cổ đại"
+      ]
+    },
+    {
+      "id": "bian_tunguska",
+      "nhom": "khoang_trang_bi_an",
+      "ten": "Vụ nổ bí ẩn Tunguska 1908",
+      "chu_de": "Vụ nổ Tunguska năm 1908: Sức công phá san phẳng 80 triệu cây rừng Siberia mà không để lại mảnh thiên thạch nào",
+      "phut": 5,
+      "nam": 1908,
+      "nhan_vat": [
+        "Leonid Kulik"
+      ]
+    },
+    {
+      "id": "bian_bermuda_flight19",
+      "nhom": "khoang_trang_bi_an",
+      "ten": "Chuyến bay 19 mất tích ở Bermuda",
+      "chu_de": "Tam giác quỷ Bermuda và bí ẩn Chuyến bay số 19 năm 1945: 5 máy bay ném bom biến mất hoàn toàn vào bầu trời",
+      "phut": 5,
+      "nam": 1945,
+      "nhan_vat": [
+        "Trung úy Charles Taylor"
+      ]
+    },
+    {
+      "id": "sukien_titanic",
+      "nhom": "su_kien_the_gioi",
+      "ten": "Thảm kịch chìm tàu Titanic 1912",
+      "chu_de": "Vụ đắm tàu Titanic đêm ngày 14 rạng sáng 15 tháng 4 năm 1912: Con tàu không thể chìm và thảm họa băng trôi giữa Đại Tây Dương",
+      "phut": 5,
+      "nam": 1912,
+      "nhan_vat": [
+        "Edward Smith",
+        "Thomas Andrews"
+      ]
+    },
+    {
+      "id": "sukien_chernobyl",
+      "nhom": "su_kien_the_gioi",
+      "ten": "Thảm họa nổ hạt nhân Chernobyl 1986",
+      "chu_de": "Thảm họa nổ lò phản ứng số 4 nhà máy điện hạt nhân Chernobyl ngày 26/4/1986 và cuộc giải cứu Liên Xô trong gang tấc",
+      "phut": 8,
+      "nam": 1986,
+      "nhan_vat": [
+        "Valery Legasov",
+        "Boris Shcherbina"
+      ]
+    },
+    {
+      "id": "sukien_pompeii",
+      "nhom": "su_kien_the_gioi",
+      "ten": "Pompeii bị núi lửa chôn vùi năm 79",
+      "chu_de": "Núi lửa Vesuvius phun trào năm 79: Cơn ác mộng chôn vùi vĩnh viễn thành phố phồn hoa Pompeii dưới hàng mét tro bụi",
+      "phut": 5,
+      "nam": 79,
+      "nhan_vat": [
+        "Pliny Trẻ",
+        "Pliny Già"
+      ]
+    },
+    {
+      "id": "sukien_black_death",
+      "nhom": "su_kien_the_gioi",
+      "ten": "Cái Chết Đen: Đại dịch hạch 1347",
+      "chu_de": "Đại dịch Cái Chết Đen thế kỷ 14: Cơn ác mộng kinh hoàng xóa sổ một phần ba dân số châu Âu trong vài năm",
+      "phut": 5,
+      "nam": 1347,
+      "nhan_vat": [
+        "Các bác sĩ dịch hạch mặt nạ mỏ chim"
+      ]
+    },
+    {
+      "id": "sukien_london_fire",
+      "nhom": "su_kien_the_gioi",
+      "ten": "Đại hỏa hoạn London 1666",
+      "chu_de": "Đại hỏa hoạn London năm 1666: Bốn ngày ngọn lửa thiêu rụi hơn 13.000 ngôi nhà và cuộc tái sinh thủ đô nước Anh",
+      "phut": 5,
+      "nam": 1666,
+      "nhan_vat": [
+        "Vua Charles II",
+        "Thomas Farriner"
+      ]
+    },
+    {
+      "id": "sukien_krakatoa",
+      "nhom": "su_kien_the_gioi",
+      "ten": "Vụ nổ núi lửa Krakatoa 1883",
+      "chu_de": "Đại phun trào núi lửa Krakatoa năm 1883: Âm thanh lớn nhất trong lịch sử địa cầu vang xa gần 5000 km",
+      "phut": 5,
+      "nam": 1883,
+      "nhan_vat": []
+    },
+    {
+      "id": "sukien_apollo11",
+      "nhom": "su_kien_the_gioi",
+      "ten": "Apollo 11 đặt chân lên Mặt Trăng",
+      "chu_de": "Sứ mệnh Apollo 11 ngày 20/7/1969: Bước chân lịch sử của Neil Armstrong và một bước tiến vĩ đại của toàn nhân loại",
+      "phut": 5,
+      "nam": 1969,
+      "nhan_vat": [
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "Michael Collins"
+      ]
+    },
+    {
+      "id": "deche_caesar",
+      "nhom": "de_che_the_gioi",
+      "ten": "Julius Caesar & 23 nhát dao",
+      "chu_de": "Julius Caesar: Từ danh tướng chinh phục xứ Gaul đến ngày định mệnh bị 23 nhát dao ám sát tại Viện Nguyên Lão La Mã",
+      "phut": 5,
+      "nam": -44,
+      "nhan_vat": [
+        "Julius Caesar",
+        "Marcus Brutus"
+      ]
+    },
+    {
+      "id": "deche_alexander",
+      "nhom": "de_che_the_gioi",
+      "ten": "Alexander Đại Đế chinh phạt thế giới",
+      "chu_de": "Alexander Đại Đế: Vị vua Macedonia bất khả chiến bại chinh phạt từ Hy Lạp, Ai Cập đến biên giới Ấn Độ trước tuổi 32",
+      "phut": 8,
+      "nam": -334,
+      "nhan_vat": [
+        "Alexander Đại Đế",
+        "Darius III"
+      ]
+    },
+    {
+      "id": "deche_roma_collapse",
+      "nhom": "de_che_the_gioi",
+      "ten": "Sự sụp đổ của Đế chế La Mã",
+      "chu_de": "Sự trỗi dậy và sụp đổ của Đế chế La Mã: Vì sao đế quốc hùng mạnh bậc nhất thế giới cổ đại lại tan rã?",
+      "phut": 8,
+      "nam": 476,
+      "nhan_vat": [
+        "Romulus Augustulus",
+        "Odoacer"
+      ]
+    },
+    {
+      "id": "deche_mong_co",
+      "nhom": "de_che_the_gioi",
+      "ten": "Thành Cát Tư Hãn & Vó ngựa thảo nguyên",
+      "chu_de": "Thành Cát Tư Hãn: Từ cậu bé bị ruồng bỏ đến người sáng lập đế quốc vó ngựa Mông Cổ rộng lớn nhất lịch sử",
+      "phut": 8,
+      "nam": 1206,
+      "nhan_vat": [
+        "Thành Cát Tư Hãn",
+        "Bột Nhĩ Thiếp",
+        "Triết Biệt"
+      ]
+    },
+    {
+      "id": "deche_colosseum",
+      "nhom": "de_che_the_gioi",
+      "ten": "Võ sĩ giác đấu & Đấu trường La Mã",
+      "chu_de": "Đấu trường La Mã Colosseum: Máu, cát bụi và sự sống chết của những võ sĩ giác đấu Gladiator dưới quyền lực Hoàng đế",
+      "phut": 5,
+      "nam": 80,
+      "nhan_vat": [
+        "Hoàng đế Titus",
+        "Spartacus"
+      ]
+    },
+    {
+      "id": "deche_knights_templar",
+      "nhom": "de_che_the_gioi",
+      "ten": "Kỵ sĩ Đền Tàng & Thứ Sáu ngày 13",
+      "chu_de": "Hội Kỵ sĩ Đền Tàng (Knights Templar): Sự giàu có huyền bí và cuộc thanh trừng đẫm máu vào Thứ Sáu ngày 13 năm 1307",
+      "phut": 5,
+      "nam": 1307,
+      "nhan_vat": [
+        "Jacques de Molay",
+        "Vua Philip IV"
+      ]
+    },
+    {
+      "id": "deche_tan_thuy_hoang",
+      "nhom": "de_che_the_gioi",
+      "ten": "Tần Thủy Hoàng & Đội quân đất nung",
+      "chu_de": "Tần Thủy Hoàng: Người thống nhất Trung Hoa, xây Vạn Lý Trường Thành và bí mật Đội quân đất nung dưới lòng đất",
+      "phut": 8,
+      "nam": -221,
+      "nhan_vat": [
+        "Tần Thủy Hoàng",
+        "Lý Tư"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+yt-dlp>=2025.1.1
+requests>=2.31.0
+rich>=13.7.0
+srt>=3.5.3
+openai-whisper
+faster-whisper>=1.0.0
+ctranslate2>=4.0.0
+openai>=1.12.0
+ffmpeg-python>=0.2.0
+edge-tts>=7.3.1
+langdetect>=1.0.9
+deep-translator>=1.11.4
+flask>=3.0.0
+openpyxl>=3.1.2
+
+# Phim vẽ tranh: bộ vẽ bảng trắng (vendor/srt_whiteboard, MIT)
+opencv-python-headless<4.13
+rembg==2.0.61   # Product Photos: tách nền ảnh sản phẩm (21/10/2026)
+
+# Bổ sung 20/11/2026: code dùng mà trước đây file này thiếu (bản đang chạy trên máy chủ tool)
+pillow>=11.0
+numpy>=2.0
+scipy>=1.13
+beautifulsoup4>=4.12
+playwright>=1.50          # sau khi cài chạy: venv/bin/playwright install chromium
+google-api-python-client>=2.150
+google-auth>=2.30
+google-auth-oauthlib>=1.2
+google-auth-httplib2>=0.2
+gTTS>=2.5
+torch>=2.2                # openai-whisper cần, pip thường tự kéo theo
